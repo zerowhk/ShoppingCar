@@ -1,6 +1,7 @@
 <template>
     <div>
         <div class="title">Shopping Cart Example</div>
+        <button @click="handleClick()">测试按钮</button>
         <hr>
         <product-list />
         <hr>

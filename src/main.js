@@ -4,8 +4,8 @@ import Vue from 'vue'
 //引入store
 import store from './store/index.js'
 
-
-import App from './App'
+import router from './router/index'
+import App from './App2'
 
 Vue.config.productionTip = false
 
@@ -19,5 +19,6 @@ new Vue({
   el: '#app',
   components: { App },
   template: '<App/>',
-  store
+  store,
+  router
 })
